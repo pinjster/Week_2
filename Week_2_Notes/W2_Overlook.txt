@@ -1,0 +1,7 @@
+Day 1: Basics of Python / assigning int / float / String output-input / Type conversion / if statements / in, is, not in / 
+	else, elif / for loop / continue, break, pass / double for loops / While loop / while true, while loops and for loops/ 
+	range(), len(), help(), isinstance(), abs() / Lists / .append(), .insert(), .pop(), .remove(), del() / Loop through 	Lists / 
+Day 2:
+Day 3:
+Day 4:
+Day 5:
