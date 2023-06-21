@@ -22,7 +22,7 @@ print('..' , end='..') / adds end value attached to the end of the print.
 end='' / print is default to new line, so by adding end='' changes so that the end is empty, no new line
 String Concatenation / adding strings together via + or +=
 input(..) / is a prompt for user to add input. inside (..) will print so that user can know what is desired input. input default always is a string even if only numbers go in. 
-methods are always .method()
+methods are always syntaxed as .method()
 .format(..) / is a method that formats a form of output (ie. str_var = '{} you are {} and you're beautiful'.format(instructor, user_age)
 {} / is a placeholder for .format .
 str_var = '%s you are %d and you are beautiful' % (instructor , user_age) / is old method (PYTHON 2) for format
@@ -45,12 +45,11 @@ continue, break, pass / must be used within a loop.
 continue / continues the code, moving on to the next iteration of the loop.
 break / breaks out of loop and ends it.
 pass / continues on the same iteration of the loop.
-print(f'..{}') / prints specific outputs
+print(f'..{..}') / prints specific outputs and variables inside {..}
 while / will loop until conditional is met
 len(..) / will give you length of string var
 help(..) / gives additional info to function var
 isinstance(..) / chacks if value matches type, returns boolean. ie. isinstance('sean', str) returns True
 abs(..) / returns absolute value of number
-
 
 

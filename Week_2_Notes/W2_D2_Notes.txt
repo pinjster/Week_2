@@ -1,0 +1,49 @@
+QUESTIONS: List Comprehension (In[63]) are they their own separate establishment? 
+
+
+Try Except /
+try:
+     ..
+except:
+     ..
+
+code inside 'try' will run if no error is thrown. If error is thrown, it will pass down to 'except' and run that code.
+'except' can also be looking for a specific error thrown by adding after 'except ie. except TypeError: 
+
+out-of-place algorithm / algorithm that creates a new copy or output of the input data structure while performing its operations. In other words, it does not modify the original input data structure directly.
+num_list = [] / establishes a list
+num_list[-1] / will give the last item in the list / you can give 
+.append(..) / adds passed variable to the end of the list / can only add one var at a time
+.insert(..) / adds passed var to a specific location / ie. .insert(<position>, <insterted var>)
+.pop(..) / removes  an item from a list / default is last value in list / can be assigned to a var ie. 	
+	<var> = num_list.pop(<index>)
+.remove(..) / removes first element of passed variable it finds inside list / does not go by index
+del(..) / function removes element of index no. passed / ie. del(name_list[0]) deletes first element 
+concatenating two lists / both_lists = list_1 + list_2
+lists within lists / var_list = [var1, [var5, var9], var 4]
+.lstrip(..) / strips input variable ie. ' '  from left-to-right until it runs into something that is not that variable
+.rstrip(..) / strips input variable from right-to-left until it runs into something that is not that variable
+.strip(..) / strips from both sides any char var input
+.title(..) / returns string where the first character in every word is upper case.
+min(<list>) / returns the minimun value inside of list
+max(<list>) / returns the maximun value inside of list
+sum(<list>) / returns total of list
+sorted(<list>) / sorts the list (unchanged) / ALWAYS returns a list
+.sort() / method sorts the list permanently / if you try to assign a var using list.sort(), it will return None
+[:] / SLicing copies a list and does not alter the original ie. var_list = original_var_list[:] /
+	Slice syntax ie. [<start>:<end>:<step>] lets you copy specific amount by how much etc./ negative number in step sets 	it backwards.
+.index(..) / method will give you index of var you are looking for in list
+if <list>: / checks to see if list is empty / returns Boolean
+while <list>: / will go through a list. 
+
+
+.count() / method returns the number of elements with the specified value
+List Comprehension / shortening code to be max efficient / Syntax ie. numlist = [num for num in range(10)] or [variable, 	transform, condition] / Lastly, list comprehensions are considered the "pythonic" way to write code by the PEP8 	standards (Python Style Guide) / 
+Tuples / Tuple is an immutable, unchangeable list. Syntax ie. tuple_list = (1, 2, 3, .. 'a', 'b' ...) / List with no 	parenthesis is default a Tuple. / using sorted() on a Tuple will create a list, it will not be a Tuple. / You can 	concantenate tuples together to add elements into a new tuple /
+User-Defined Function / Syntax ie. def new_function(): /
+Parameter / goes in (..) of new defined function / is the info that is taken in when a function is called / default parameter 	can be established as /ie. def user_function(<var1> = 'John') / there can be multiple parameters separated by , / 
+Argument / is what is sent when calling the function / ie. user_function(<argument>) / by default when there are multiple 	parameters, they must go in order / if argument name and parameter variable name match, then there is no need to be 	in order / 
+
+
+
+
