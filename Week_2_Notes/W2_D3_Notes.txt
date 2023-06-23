@@ -1,0 +1,58 @@
+QUESTIONS: 
+Dictionary:
+	mydict = {
+		'<key>' : '<value>',
+		'<key_2>' : '<list_val>',
+		'<key_3>' : '<int_val>'
+		  } 
+		/ Syntax for establishing a dictionary / Dictionaries can contain many different variable types / 
+		including dictionaries within dictionaries and lists of dictionaries and dictionaries of lists / 
+	mydict['<key>'] / accesses value within designated key.
+	mydict[',list_key>'][<index_num>] / accesses mydict list at designated index ie. mydict["cars"][0] == "car 1"
+	mydict['<new_key>'] = <var> / adds a new key-value / this can also be used on a pre-existing key to change the value
+	.get(..) / works with a dictionary / var inside (..) gets key  / optional input separated by , is default value 
+		if key does not exist / 
+	del / for Dictionary does not use () / ie. del mydict['color'] deletes key value pair
+	.pop(..) / for Dictionary pops key value pair / ie. mydict.pop('color')
+	.keys() / returns a list of all the keys in the dictionary
+	.values() / will return a list of all the values in the dictionary
+	.items() / method returns each item in a dictionary, as tuples in a list
+	Dictionary can be used as a counter for multiple variables as keys with how many times it occurs as value/
+	sorted(..) / Dictionary sorts variables in order / sorted() can contain dict.values() dict.keys() dict.items() to
+ 		sort by designated types
+
+YOU CAN USE A COMMA IN A FOR LOOP TO HAVE MULTIPLE VALUES TO USE ie. for var, var2 in list: /  
+
+Set:
+	Set is an unordered collection data type that is iterable (loop), mutable, and has no duplicate elements
+		/ Syntax ie. my_set = {'a', 'b', 'c'} / or my_set = set((1,2,3)) /
+	.add(..) / adds element into set / will discard duplicates
+	.remove(..) / throws error if value is not present in set / removes by value
+	.discard(..) / will not throw error if value is not present 
+	.union(..) / Returns a union of two sets, can also use '|' or set.union(set) / joins all numbers, gets rid of 			duplicates / merges sets
+	.intersection(..) / returns intersection of two sets / can use '&' / merges only values that are in both /
+		Syntax ie. set_1.intersection(set_2)
+	.difference(..) / returns set containing elements not found in second set / can also use '-' / order matters / 
+		set_1.difference(set_2) returns elements in set_1 that are not in set_2
+	.clear() / empties the whole set
+	frozenset is immutable that only supports methods and operators that produce result without affecting the frozen set
+		to which they are applied / Syntax ie. frozenset([])
+Modules:
+	Module is a file containing a set of functions you want to include in your application / Syntax ie. import module /
+		access specific method by ie. from <module> import <desired_method> / use method Syntax ie. module.method()
+		/ give an alias or nickname to imported / Alias Syntax ie. from math import sqrt as sq / 
+
+*args / is a parameter of a function / allows you to add unlimited amount of arguments / Syntax ie. def funct(*args) 
+Docstring / is meant to describe what the function does, not how/ short description / Syntax ie. """ ... """ / displayed
+	when function passed through help() function.
+.split(..) / splits string into list / input var inside (..) specifies the separator, default is ' ' / Syntax x = txt.split()
+Scope refers to the ability to access variables / Global means the scope of the variable means it is accessible across code /
+	Function (local) means the variable is only accessible within a function / Class (local) means variable is 
+	accessible only within a class
+	
+
+
+
+
+
+	
